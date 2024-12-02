@@ -1,0 +1,14 @@
+/*CSS Hero section*/
+#herosection{
+    background: url(./img/fond_re_style\.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+    width: 100%;
+}
+
+.hero{
+    color: rgb(238, 39, 39);
+    font-weight: 900;
+}
