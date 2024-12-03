@@ -47,78 +47,116 @@
 
     <main>
       <header>
-        <nav></nav>
+        <nav class="navbar" style="background-color: #304635">
+          <!-- Navbar content -->
+          <nav class="navbar bg-body-tertiary">
+            <div class="container-fluid">
+              <form class="d-flex row-reverse" role="search">
+                <input
+                  class="form-control me-2"
+                  type="search"
+                  placeholder="Search"
+                  aria-label="Search"
+                />
+                <button class="btn btn-outline-success" type="submit">
+                  Search
+                </button>
+              </form>
+            </div>
+          </nav>
+        </nav>
       </header>
       <!-------------------------------------------------------------------------------- FIN NAVBAR ----------------------------------------------------------------------->
+      <section id="herosection">
+        <div
+          class="container-fluid"
+          style="text-align: center; padding-top: 100px"
+        >
+          <div class="row justify-content-center">
+            <div class="col-12 col-sm-8 col-md-12">
+              <h1 class="hero">Re.style</h1>
+            </div>
+            <!---------------------Div Titre du site----------->
+            <div class="col-12 col-sm-4 col-md-5">
+              <p class="herobrillant">
+                Chez Re.style trouvez n'importe quels vêtements de n'importe
+                qu'elle marque en quelques cliques. Une équipe à jour pour
+                checker les répliques, et ne pas les mettre sur le marché.
+              </p>
+            </div>
+            <!---------------------Div Texte accrocheur----------->
+          </div>
+          <!---------------------Div hero section ----------->
+        </div>
+      </section>
+      <!--------------------------------------------------------FIN HERO SECTION ------------------------------------------------------------------------->
       <!-------------------------------------------------------------------------------- DEBUT PRODUITS UNIQUES ----------------------------------------------------------------------->
 
-      <section id="herosection">
-        <section>
-          <div class="container">
-            <div class="row justify-content-between">
-              <div class="col-6 col-sm-8 col-md-12">
-                <img
-                  src="./img_produit/gants-bleu.jpg"
-                  class="img-fluid img-thumbnail"
-                  alt="Gants bleu"
-                />
-                <div class="col-8 col-sm-4 col-md-12">
-                  <!-- Button trigger modal -->
-                  <button
-                    type="button"
-                    class="btn btn-primary"
-                    data-bs-toggle="modal"
-                    data-bs-target="#exampleModal"
-                  >
-                    Commandez
-                  </button>
+      <section id="produitindividuellebarhaute">
+        <div class="container">
+          <div class="row justify-content-between">
+            <div class="col-6 col-sm-8 col-md-12">
+              <img
+                src="./img_produit/gants-bleu.jpg"
+                class="img-fluid img-thumbnail"
+                alt="Gants bleu"
+              />
+              <div class="col-8 col-sm-4 col-md-12">
+                <!-- Button trigger modal -->
+                <button
+                  type="button"
+                  class="btn btn-primary"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal"
+                >
+                  Commandez
+                </button>
 
-                  <!-- Modal -->
-                  <div
-                    class="modal fade"
-                    id="exampleModal"
-                    tabindex="-1"
-                    aria-labelledby="exampleModalLabel"
-                    aria-hidden="true"
-                  >
-                    <div class="modal-dialog">
-                      <div class="modal-content">
-                        <div class="modal-header">
-                          <h1 class="modal-title fs-5" id="exampleModalLabel">
-                            À propos
-                          </h1>
-                          <button
-                            type="button"
-                            class="btn-close"
-                            data-bs-dismiss="modal"
-                            aria-label="Close"
-                          ></button>
-                        </div>
-                        <div class="modal-body">
-                          Découvrez notre gant bleu, un incontournable qui allie
-                          style, confort et praticité ! Fabriqué avec des
-                          matériaux de qualité supérieure, il est conçu pour
-                          offrir une excellente durabilité tout en assurant une
-                          protection optimale de vos mains. Son design
-                          ergonomique garantit un ajustement parfait, rendant
-                          son utilisation agréable au quotidien. Que ce soit
-                          pour vos activités sportives, travaux manuels ou
-                          simplement pour compléter votre tenue, ce gant bleu
-                          est le choix idéal. N'attendez plus, offrez-vous ce
-                          mélange parfait de fonctionnalité et d'élégance !
-                        </div>
-                        <div class="modal-footer">
-                          <button
-                            type="button"
-                            class="btn btn-secondary"
-                            data-bs-dismiss="modal"
-                          >
-                            Fermer
-                          </button>
-                          <button type="button" class="btn btn-primary">
-                            Acheter
-                          </button>
-                        </div>
+                <!-- Modal -->
+                <div
+                  class="modal fade"
+                  id="exampleModal"
+                  tabindex="-1"
+                  aria-labelledby="exampleModalLabel"
+                  aria-hidden="true"
+                >
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">
+                          À propos
+                        </h1>
+                        <button
+                          type="button"
+                          class="btn-close"
+                          data-bs-dismiss="modal"
+                          aria-label="Close"
+                        ></button>
+                      </div>
+                      <div class="modal-body">
+                        Découvrez notre gant bleu, un incontournable qui allie
+                        style, confort et praticité ! Fabriqué avec des
+                        matériaux de qualité supérieure, il est conçu pour
+                        offrir une excellente durabilité tout en assurant une
+                        protection optimale de vos mains. Son design ergonomique
+                        garantit un ajustement parfait, rendant son utilisation
+                        agréable au quotidien. Que ce soit pour vos activités
+                        sportives, travaux manuels ou simplement pour compléter
+                        votre tenue, ce gant bleu est le choix idéal. N'attendez
+                        plus, offrez-vous ce mélange parfait de fonctionnalité
+                        et d'élégance !
+                      </div>
+                      <div class="modal-footer">
+                        <button
+                          type="button"
+                          class="btn btn-secondary"
+                          data-bs-dismiss="modal"
+                        >
+                          Fermer
+                        </button>
+                        <button type="button" class="btn btn-primary">
+                          Acheter
+                        </button>
                       </div>
                     </div>
                   </div>
@@ -126,7 +164,7 @@
               </div>
             </div>
           </div>
-        </section>
+        </div>
       </section>
     </main>
     <!-------------------------------------------------------- FOOTERRR ------------------------------------------------------------------------->
