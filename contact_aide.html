@@ -51,13 +51,242 @@
 
     <main>
       <header>
-        <nav></nav>
+        <nav class="navbar" style="background-color: #304635">
+          <!-- Navbar content -->
+          <nav class="navbar bg-body-tertiary">
+            <div class="container-fluid">
+              <form class="d-flex row-reverse" role="search">
+                <input
+                  class="form-control me-2"
+                  type="search"
+                  placeholder="Search"
+                  aria-label="Search"
+                />
+                <button class="btn btn-outline-success" type="submit">
+                  Search
+                </button>
+              </form>
+            </div>
+          </nav>
+        </nav>
       </header>
       <!-------------------------------------------------------------------------------- FIN NAVBAR ----------------------------------------------------------------------->
-      <section></section>
+      <section id="herosection">
+        <div
+          class="container-fluid"
+          style="text-align: center; padding-top: 100px"
+        >
+          <div class="row justify-content-center">
+            <div class="col-12 col-sm-8 col-md-12">
+              <h1 class="hero">Re.style</h1>
+            </div>
+            <!---------------------Div Titre du site----------->
+            <div class="col-12 col-sm-4 col-md-5">
+              <p class="herobrillant">
+                Chez Re.style trouvez n'importe quels vêtements de n'importe
+                qu'elle marque en quelques cliques. Une équipe à jour pour
+                checker les répliques, et ne pas les mettre sur le marché.
+              </p>
+            </div>
+            <!---------------------Div Texte accrocheur----------->
+          </div>
+          <!---------------------Div hero section ----------->
+        </div>
+      </section>
+      <!--------------------------------------------------------FIN HERO SECTION ------------------------------------------------------------------------->
+      <section class="Formulaire_de_contact_aide">
+        <div class="container">
+          <div class="text">Contact us Form</div>
+          <form action="#">
+            <div class="form-row">
+              <div class="input-data">
+                <input type="text" required />
+                <div class="underline"></div>
+                <label for="">First Name</label>
+              </div>
+              <div class="input-data">
+                <input type="text" required />
+                <div class="underline"></div>
+                <label for="">Last Name</label>
+              </div>
+            </div>
+            <!--fin première div form-->
+            <div class="form-row">
+              <div class="input-data">
+                <input type="text" required />
+                <div class="underline"></div>
+                <label for="">Email Address</label>
+              </div>
+              <div class="input-data">
+                <input type="text" required />
+                <div class="underline"></div>
+                <label for="">Website Name</label>
+              </div>
+            </div>
+            <!--Fin deuxième div form-->
+            <div class="form-row">
+              <div class="input-data textarea">
+                <textarea rows="8" cols="80" required></textarea>
+                <br />
+                <div class="underline"></div>
+                <label for="">Write your message</label>
+                <br />
+                <div class="form-row submit-btn">
+                  <div class="input-data">
+                    <div class="inner"></div>
+                    <input type="submit" value="submit" />
+                  </div>
+                </div>
+                <!--Fin de div bouton-->
+              </div>
+              <!--Fin de de la div Textarea-->
+            </div>
+            <!--Fin troisièmes div form-->
+          </form>
+          <!---Fin de formulaire-->
+        </div>
+        <!--Fin du container-->
+      </section>
+      <!----Début questionnaire----------------------------------------------------------------------------------------------------------------------------------->
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12 col-sm-6 col-md-12">
+            <section class="Questionnaire">
+              <div class="quiz-container">
+                <h1>Question sur notre cite de vente</h1>
+                <form id="quiz-form">
+                  <div class="question">
+                    <p>1. Quel langage est utilisé pour structurer le web ?</p>
+                    <label
+                      ><input type="radio" name="q1" value="HTML" /> HTML</label
+                    >
+                    <label
+                      ><input type="radio" name="q1" value="CSS" /> CSS</label
+                    >
+                    <label
+                      ><input type="radio" name="q1" value="JavaScript" />
+                      JavaScript</label
+                    >
+                  </div>
+                  <div class="question">
+                    <p>2. Quel langage permet de styliser une page web ?</p>
+                    <label
+                      ><input type="radio" name="q2" value="HTML" /> HTML</label
+                    >
+                    <label
+                      ><input type="radio" name="q2" value="CSS" /> CSS</label
+                    >
+                    <label
+                      ><input type="radio" name="q2" value="JavaScript" />
+                      JavaScript</label
+                    >
+                  </div>
+                  <button type="button" id="submit-btn">Soumettre</button>
+                  <p id="result"></p>
+                </form>
+              </div>
+            </section>
+          </div>
+        </div>
+      </div>
     </main>
     <!-------------------------------------------------------- FOOTERRR ------------------------------------------------------------------------->
-    <footer></footer>
+
+    <!-------------------------------------------------------- FOOTERRR ------------------------------------------------------------------------->
+    <!-------------------------------------------------------- FOOTERRR ------------------------------------------------------------------------->
+    <!-------------------------------------------------------- FOOTERRR ------------------------------------------------------------------------->
+    <footer>
+      <div class="container-fluid mt-5">
+        <div class="card">
+          <div class="row g-0">
+            <div class="col-md-8 border-right">
+              <div class="border-bottom">
+                <div class="row p-4 justify-content-between">
+                  <div class="col-md-3">
+                    <ul class="item-list">
+                      <li><a href="#">Re.style</a></li>
+                    </ul>
+                  </div>
+                  <!---------------------Div text center start----------->
+
+                  <div class="col-md-3">
+                    <ul class="item-list">
+                      <li><a href="#">A propos</a></li>
+                      <li><a href="#">Mention Légales</a></li>
+                    </ul>
+                  </div>
+                  <!---------------------Div text center footer----------->
+
+                  <div class="col-md-3">
+                    <ul class="item-list">
+                      <li><a href="#">Nous contacter</a></li>
+                      <li><a href="#">Connexion</a></li>
+                      <li><a href="#">Inscription</a></li>
+                    </ul>
+                  </div>
+                  <!---------------------Div text right footer ----------->
+                </div>
+                <!---------------------Div space between and text-center ----------->
+              </div>
+              <!---------------------Div border-bottom ----------->
+
+              <div class="d-flex justify-content-between p-4">
+                <span class="text-white">2024 Copyright</span>
+                <span class="text-white">Terms and conditions</span>
+              </div>
+              <!---------------------Div text bas footer----------->
+            </div>
+            <!---------------------Div space between and text-center ----------->
+
+            <div class="col-md-4">
+              <div class="border-bottom">
+                <div class="mt-0 text-center p-2">
+                  <div class="text-center">
+                    <div>
+                      <span class="text-white d-block text-left"
+                        >Business Enquiry</span
+                      >
+                    </div>
+                    <!---------------------Div text-center d-block, footer right ----------->
+                  </div>
+                  <!---------------------Div text-center footer right ----------->
+
+                  <div class="mt-0 text-center p-2">
+                    <div class="text-center">
+                      <span class="text-white">marketing@bbbootstrap.com</span>
+                    </div>
+                    <!---------------------Div text-center, bas footer right ----------->
+                  </div>
+                  <!---------------------Div text-center padding, footer right ----------->
+                </div>
+                <!---------------------Div text-center, footer-top-right ----------->
+              </div>
+              <!---------------------Div border-bottom ----------->
+
+              <div class="border-bottom">
+                <div class="p-3">
+                  <div class="search d-flex align-items-center">
+                    <input
+                      class="search_input"
+                      type="text"
+                      name=""
+                      placeholder="Enter your email"
+                    />
+                  </div>
+                  <!---------------------Div items-center, e-mail ----------->
+                </div>
+                <!---------------------Div items-center padding, box e-mail  ----------->
+              </div>
+              <!---------------------Div border-bottom ----------->
+            </div>
+            <!---------------------Div text-right et email ----------->
+          </div>
+          <!---------------------Div gap-0, pas d'espace entre les traits ----------->
+        </div>
+        <!---------------------Div card, fond vert foncé ----------->
+      </div>
+      <!---------------------Div container-fluid margin-top-5, box ----------->
+    </footer>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
