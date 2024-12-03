@@ -1,3 +1,14 @@
+body{
+    background-color: #4b6d53;
+    margin: auto;
+    padding: auto;
+
+}
+
+p{
+  color: white;
+}
+
 /*CSS Hero section*/
 #herosection{
     background: url(./img/fond_re_style_.JPG);
@@ -19,12 +30,6 @@
     color: #DC3545;
 }
 
-body{
-    background-color: #4b6d53;
-    margin: auto;
-    padding: auto;
-
-}
 
 /*CSS trait section*/
 .traitsection{
@@ -35,17 +40,20 @@ body{
 
 /*CSS bouton*/
 .btn-primary{
-    color: blue;
+    color: rgb(255, 255, 255);
+    background-color: #000000;
+    border-color: #000000;
+}
+
+.btn-primary:hover{
+    color: rgb(255, 255, 255);
     background-color: #4b6d53;
     border-color: #4b6d53;
 }
 
-.btn-primary:hover{
-    color: blue;
-    background-color: red;
-    border-color: red;
+#largebouton{
+  width: 100%;
 }
-
 
 /*
 .btn-primary:active{
@@ -56,64 +64,7 @@ body{
 
 
 
-/*CSS Newsletter*/
-.center {
-    padding: 20px 20px;
-    background: #fff;
-    border-radius: 10px;
-    width: 30%;
-  }
-  .center h5 {
-    font-size: 2em;
-    border-left: 5px solid dodgerblue;
-    padding: 10px;
-    color: #000;
-    letter-spacing: 5px;
-    margin-bottom: 60px;
-    font-weight: bold;
-    padding-left: 10px;
-  }
-  .center .inputbox {
-    position: relative;
-    height: 50px;
-    margin-bottom: 50px;
-  }
-  .center .inputbox input {
-    position: absolute;
-    top: 0;
-    left: 0;
-    border: 2px solid #000;
-    outline: none;
-    background: none;
-    padding: 10px;
-    border-radius: 10px;
-  }
-  .center .inputbox:last-child {
-    margin-bottom: 0;
-  }
-  .center .inputbox span {
-    position: absolute;
-    top: 14px;
-    left: 20px;
-    font-size: 1em;
-    transition: 0.6s;
-    font-family: sans-serif;
-  }
-  .center .inputbox input:focus ~ span,
-  .center .inputbox input:valid ~ span {
-    transform: translateX(-13px) translateY(-35px);
-    font-size: 1em;
-  }
-  .center .inputbox [type="button"] {
-    width: 50%;
-    background: dodgerblue;
-    color: #fff;
-    border: #fff;
-  }
-  .center .inputbox:hover [type="button"] {
-    background: linear-gradient(45deg, greenyellow, dodgerblue);
-  }
-  
+
 
 
 
