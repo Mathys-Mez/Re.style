@@ -26,6 +26,17 @@ body{
 }
 
 /*CSS image catalogue*/
+.cataloguehover:hover{
+    opacity: 50%;
+}
+.cataloguehover {
+    transition: all 0.5s ease;
+}
+
+.imagearrondicatalogue{
+    border-radius: 100px;
+}
+
 
 /*Css HR trait produit unique*/
 #produitindividuellebarhaute{
