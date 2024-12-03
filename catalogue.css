@@ -4,6 +4,13 @@ body{
     padding: auto;
 }
 
+.row{
+    margin: 0;
+}
+
+
+
+
 /*CSS Hero section*/
 #herosection{
     background: url(./img/fond_re_style_.JPG);
@@ -45,9 +52,16 @@ body{
     border-top: 10px solid white;
 }
 
+/*CSS bouton filtrer*/
+.btn-outline{
+    background-color: grey;
+}
+
+.btn-outline:hover{
+    background-color: #304635
+}
+
 /*CSS Footer*/
-
-
 .card{
 
     background: #304635;
