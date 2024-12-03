@@ -5,35 +5,6 @@ body{
 
 }
 
-/*CSS Hero section*/
-#herosection{
-    background: url(./img/fond_re_style_.JPG);
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-    height: 72vh;
-    width: 100%;
-}
-
-.hero{
-    color: #ff0019 ;
-    font-weight: 900;
-}
-
-.herobrillant{
-    padding-top: 50px;
-    font-weight: bolder;
-    color: #ff0019;
-}
-
-
-/*Css HR trait produit unique*/
-#produitindividuellebarhaute{
-    border-radius: 30px;
-    padding-top: 20px;
-    border-top: 10px solid white;
-}
-
 /*CSS Footer*/
 
 
