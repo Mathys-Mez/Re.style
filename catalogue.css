@@ -1,3 +1,9 @@
+body{
+    background-color: #4b6d53;
+    margin: auto;
+    padding: auto;
+}
+
 /*CSS Hero section*/
 #herosection{
     background: url(./img/fond_re_style_.JPG);
