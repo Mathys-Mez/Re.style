@@ -1,5 +1,5 @@
 body{
-    background-color: #6b776e;
+    background-color: #4b6d53;
     margin: auto;
     padding: auto;
 
@@ -16,12 +16,6 @@ margin-top: 20px;
 }
 
 
-/*CSS trait section*/
-.traitsection{
-    padding-bottom: 30px;
-    border-bottom: 5px solid white;
-    border-radius: 15%;
-}
 
 /*CSS bouton*/
 .btn-primary{
@@ -36,9 +30,6 @@ margin-top: 20px;
     border-color: #4b6d53;
 }
 
-#largebouton{
-  width: 100%;
-}
 
 
 .btn-primary:active{
@@ -54,8 +45,6 @@ margin-top: 20px;
 }
 
 /*CSS Footer*/
-
-
 .card{
 
     background: #304635;
