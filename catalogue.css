@@ -13,26 +13,7 @@ em{
 }
 
 
-/*CSS Hero section*/
-#herosection{
-    background: url(./img/fond_re_style_.JPG);
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-    height: 72vh;
-    width: 100%;
-}
 
-.hero{
-    color: #ff0019 ;
-    font-weight: 900;
-}
-
-.herobrillant{
-    padding-top: 50px;
-    font-weight: bolder;
-    color: #ff0019;
-}
 
 /*CSS image catalogue*/
 .cataloguehover:hover{
@@ -51,6 +32,7 @@ em{
 #produitindividuellebarhaute{
     border-radius: 30px;
     padding-top: 20px;
+    margin-top: 20px;
     border-top: 10px solid white;
 }
 
@@ -61,6 +43,11 @@ em{
 
 .btn-outline:hover{
     background-color: #304635
+}
+
+.btn-primary{
+    background-color: #304635;
+    border-color: #304635;  
 }
 
 /*CSS Footer*/
