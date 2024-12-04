@@ -56,12 +56,6 @@ p{
 }
 
 
-.btn-primary:active{
-    color: red;
-    background-color: yellow;
-    border-color: yellow;
-}
-
 .btn-primary:focus{
     color: #ffffff;
     background-color: #00c535;
