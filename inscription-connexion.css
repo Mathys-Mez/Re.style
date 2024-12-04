@@ -9,25 +9,10 @@ p{
   color: white;
 }
 
-/*CSS Hero section*/
-#herosection{
-    background: url(./img/fond_re_style_.JPG);
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-    height: 72vh;
-    width: 100%;
-}
 
-.hero{
-    color: #ff0019 ;
-    font-weight: 900;
-}
 
-.herobrillant{
-    padding-top: 50px;
-    font-weight: bolder;
-    color: #ff0019;
+.Formulaire_de_contact_aide{
+margin-top: 20px;
 }
 
 
