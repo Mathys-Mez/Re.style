@@ -285,19 +285,25 @@ a{
 
   
   @media (max-width: 700px) {
-    .container .text{
-      font-size: 30px;
+
+    .containerf{
+      display: flex;
+      flex-direction: column;
     }
-    .container form{
+    
+    .containerf .text{
+      font-size: 2em;
+    }
+    .containerf form{
       padding: 10px 0 0 0;
     }
-    .container form .form-row{
+    .containerf form .form-row{
       display: block;
     }
     form .form-row .input-data{
       margin: 35px 0!important;
     }
     .submit-btn .input-data{
-      width: 40%!important;
+      width: 90%!important;
     }
   }
