@@ -13,8 +13,6 @@ em{
 }
 
 
-
-
 /*CSS image catalogue*/
 .cataloguehover:hover{
     opacity: 50%;
@@ -36,18 +34,24 @@ em{
     border-top: 10px solid white;
 }
 
-/*CSS bouton filtrer*/
-.btn-outline{
-    background-color: grey;
-}
 
-.btn-outline:hover{
-    background-color: #304635
-}
-
+/*CSS bouton*/
 .btn-primary{
+    color: rgb(255, 255, 255);
+    background-color: #000000;
+    border-color: #000000;
+}
+
+.btn-primary:hover{
+    color: rgb(255, 255, 255);
     background-color: #304635;
-    border-color: #304635;  
+    border-color: #304635;
+}
+
+.btn-primary:focus{
+    color: #ffffff;
+    background-color: #00c535;
+    border-color: #00c535;  
 }
 
 /*CSS Footer*/
