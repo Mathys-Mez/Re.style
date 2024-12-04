@@ -54,6 +54,14 @@ em{
     border-color: #00c535;  
 }
 
+.dropdown-toggle{
+    background-color:  darkgray;
+}
+
+.dropdown-toggle:focus{
+    background-color: gray;
+}
+
 /*CSS Footer*/
 .card{
 
