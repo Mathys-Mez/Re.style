@@ -5,7 +5,31 @@ body{
 
 }
 
-/*CSS btn*/
+/*CSS bouton*/
+.btn-primary{
+    color: rgb(255, 255, 255);
+    background-color: #000000;
+    border-color: #000000;
+}
+
+.btn-primary:hover{
+    color: rgb(255, 255, 255);
+    background-color: #272727;
+    border-color: #272727;
+}
+
+.btn-primary:focus{
+    color: #ffffff;
+    background-color: #00c535;
+    border-color: #00c535;  
+}
+
+.btn-secondary:focus{
+    color: #ffffff;
+    background-color: #00c535;
+    border-color: #00c535;  
+}
+
 
 
 /*CSS Footer*/
