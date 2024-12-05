@@ -10,6 +10,7 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
 
     <link
       rel="icon"
@@ -73,7 +74,7 @@
       <!-------------------------------------------------------------------------------- FIN NAVBAR ----------------------------------------------------------------------->
 
       <!--------------------------------------------------------FIN HERO SECTION ------------------------------------------------------------------------->
-      <section class="Formulaire_de_contact_aide">
+      <section data-aos="flip-left" class="Formulaire_de_contact_aide">
         <div class="container">
           <div class="text">Contacter nous</div>
           <form action="#">
@@ -133,7 +134,7 @@
         </div>
         <!--Fin du container-->
       </section>
-      <!----Début questionnaire----------------------------------------------------------------------------------------------------------------------------------->
+      <!--------------Début questionnaire------------------------------------------------------------->
       <!--------------------------------Début questionnaire--------------------------------------------->
       <section>
         <h1>FAQ</h1>
@@ -268,10 +269,14 @@
       </div>
       <!---------------------Div container-fluid margin-top-5, box ----------->
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
