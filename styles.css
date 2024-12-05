@@ -204,6 +204,9 @@ button:hover {
   .container .text{
     font-size: 0.9em;
   }
+  .navbar{
+    width: 100%;
+  }
   .container form{
     padding: 10% 0 0 0;
   }
