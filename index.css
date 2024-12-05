@@ -47,15 +47,15 @@ p{
 
 /*CSS bouton*/
 .btn-primary{
-    color: rgb(255, 255, 255);
-    background-color: #000000;
-    border-color: #000000;
+    color: rgb(0, 0, 0);
+    background-color: #efff00;
+    border-color: #efff00;
 }
 
 .btn-primary:hover{
-    color: rgb(255, 255, 255);
-    background-color: #4b6d53;
-    border-color: #4b6d53;
+    color: rgb(0, 0, 0);
+    background-color: #97a100;
+    border-color: #97a100;
 }
 
 #largebouton{
@@ -64,9 +64,9 @@ p{
 
 
 .btn-primary:focus{
-    color: #ffffff;
-    background-color: #00c535;
-    border-color: #00c535;  
+    color: #000000;
+    background-color: #3e4200;
+    border-color: #3e4200;  
 }
 
 /*CSS Footer*/
