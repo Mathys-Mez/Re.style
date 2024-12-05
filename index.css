@@ -9,6 +9,13 @@ p{
   color: white;
 }
 
+
+/*CSS img*/
+.img-fluid{
+  border-radius: 20px;
+}
+
+
 /*CSS Hero section*/
 #herosection{
     background: url(./img/fond_re_style_.JPG);
