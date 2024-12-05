@@ -41,31 +41,37 @@ em{
 
 /*CSS bouton*/
 .btn-primary{
-    color: rgb(255, 255, 255);
-    background-color: #000000;
-    border-color: #000000;
+    color: rgb(0, 0, 0);
+    background-color: #efff00;
+    border-color: #efff00;
 }
 
 .btn-primary:hover{
-    color: rgb(255, 255, 255);
-    background-color: #304635;
-    border-color: #304635;
+    color: rgb(0, 0, 0);
+    background-color: #97a100;
+    border-color: #97a100;
 }
+
 
 .btn-primary:focus{
-    color: #ffffff;
-    background-color: #00c535;
-    border-color: #00c535;  
+    color: #000000;
+    background-color: #3e4200;
+    border-color: #3e4200;  
 }
 
+
 .dropdown-toggle{
-    background-color:  darkgray;
+    background-color:  #efff00;
 }
 
 .dropdown-toggle:focus{
     background-color: gray;
 }
 
+
+.modal-body, .modal-header, .modal-footer{
+    background-color: black;
+}
 /*CSS Footer*/
 .card{
 
