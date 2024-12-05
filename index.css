@@ -15,6 +15,9 @@ p{
   border-radius: 20px;
 }
 
+.imglogo{
+  height: 8vh;
+}
 
 /*CSS Hero section*/
 #herosection{
