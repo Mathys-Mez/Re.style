@@ -43,7 +43,7 @@
   </head>
   <body>
     <!-- Example Code -->
-    <!-------------------------------------------------------------------------------- Navbar ----------------------------------------------------------------------->
+    <!---------------------------- Navbar ----------------------------------->
 
     <main>
       <header>
@@ -66,7 +66,7 @@
           </nav>
         </nav>
       </header>
-      <!-------------------------------------------------------------------------------- FIN NAVBAR ----------------------------------------------------------------------->
+      <!------------------------- FIN NAVBAR -------------------------------------->
       <section id="herosection">
         <div
           class="container-fluid"
@@ -90,53 +90,87 @@
         </div>
       </section>
       <!--------------------------------------------------------FIN HERO SECTION ------------------------------------------------------------------------->
-      <section class="Formulaire_de_contact_aide">
-        <div class="container">
-          <div class="text">Inscription</div>
-          <form action="#">
-            <div class="form-row">
-              <div class="input-data">
-                <input type="text" required />
-                <div class="underline"></div>
-                <label for="">Prénom</label>
+      <section>
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-12 col-sm-6 col-md-6">
+              <div class="form-container">
+                <h1>Connexion</h1>
+                <form action="submit_form.php" method="POST">
+                  <!-- Champ pour l'email -->
+                  <label for="email">Email :</label>
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="Votre email"
+                    required
+                  />
+
+                  <!-- Champ pour le sujet -->
+                  <label for="subject">Mot de passe</label>
+                  <input
+                    type="text"
+                    id="subject"
+                    name="subject"
+                    placeholder="Mot de passe"
+                  />
+
+                  <!-- Bouton de soumission -->
+                  <button type="submit">Envoyer</button>
+                </form>
               </div>
-              <div class="input-data">
-                <input type="text" required />
-                <div class="underline"></div>
-                <label for="">Nom</label>
-              </div>
+              <!--------------------Fin container form----------------------------------->
             </div>
-            <!--fin première div form-->
-            <div class="form-row">
-              <div class="input-data">
-                <input type="text" required />
-                <div class="underline"></div>
-                <label for="">Adresse Email </label>
+            <div class="col-12 col-sm-6 col-md-6">
+              <div class="form-container">
+                <h1>Inscription</h1>
+                <form action="submit_form.php" method="POST">
+                  <!-- Champ pour le nom -->
+                  <label for="name">Nom :</label>
+                  <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    placeholder="Votre nom"
+                    required
+                  />
+
+                  <!-- Champ pour l'email -->
+                  <label for="email">Email :</label>
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="Votre email"
+                    required
+                  />
+
+                  <!-- Champ pour le sujet -->
+                  <label for="subject">Mot de passe</label>
+                  <input
+                    type="text"
+                    id="subject"
+                    name="subject"
+                    placeholder="Mot de passe"
+                  />
+
+                  <!-- Bouton de soumission -->
+                  <button type="submit">Envoyer</button>
+                </form>
               </div>
-              <div class="input-data">
-                <input type="text" required />
-                <div class="underline"></div>
-                <label for="">Nom d'utilisateur</label>
-              </div>
+              <!--------------------Fin container form----------------------------------->
             </div>
-            <!--Fin deuxième div form-->
-            <div class="form-row">
-              <div class="input-data textarea">
-                <div class="form-row submit-btn">
-                  <div class="input-data">
-                    <div class="inner"></div>
-                    <input type="submit" value="Inscription" />
-                  </div>
-                </div>
-                </div>
-            </div>
-            <!------------------------------------------fin premier formulaire------------------------------------------------------>
-            
-       </section>
-    
-    <!-------------------------------------------------------- FOOTERRR ------------------------------------------------------------------------->
-    <!-------------------------------------------------------- FOOTERRR ------------------------------------------------------------------------->
-    <!-------------------------------------------------------- FOOTERRR ------------------------------------------------------------------------->
+          </div>
+          <!---------------------Fin div col--------------------------------------------->
+          <!--------------------fin div Row--------------------------------------------->
+        </div>
+
+        <!-----------------------Fin container----------------------------------------->
+      </section>
+      <!---------------------------fin premier formulaire----------------------------->
+    </main>
+    <!------------------------------ FOOTERRR ------------------------------------>
     <footer>
       <div class="container-fluid mt-5">
         <div class="card">
