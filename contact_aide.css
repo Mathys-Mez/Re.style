@@ -9,7 +9,7 @@ url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swa
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
   body{
-    background-color: #4b6d53;
+    background-color: #4b6d53c0;
     margin: auto;
     padding: auto;
   }
