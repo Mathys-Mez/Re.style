@@ -9,6 +9,12 @@ body{
   color: white;
   }
   
+
+  /*CSS img*/
+  .imglogo{
+    height: 8vh;
+    border-radius: 10px;
+  }
   
  /* Card Styles */
 

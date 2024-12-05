@@ -29,6 +29,10 @@ em{
     border-radius: 100px;
 }
 
+.imglogo{
+    height: 8vh;
+    border-radius: 10px;
+  }
 
 /*Css HR trait produit unique*/
 #produitindividuellebarhaute{

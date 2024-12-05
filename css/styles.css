@@ -1,4 +1,4 @@
-img {
+img{
   border-radius: 50%;
   width: 150px;
   padding-left: 2em;
@@ -14,6 +14,13 @@ padding: auto;
 
 p{
 color: white;
+}
+
+/*CSS img logo*/
+#logo{
+  height: 8vh;
+  border-radius: 10px;
+  width: 100%;
 }
 
 

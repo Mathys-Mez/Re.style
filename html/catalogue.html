@@ -11,6 +11,9 @@
       crossorigin="anonymous"
     />
 
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
     <link rel="icon" type="image/x-icon" href="/img/logo_restyle.jpg" />
     <link rel="stylesheet" href="/css/catalogue.css" />
 
@@ -49,23 +52,58 @@
 
     <main>
       <header>
-        <nav class="navbar" style="background-color: #304635">
-          <!-- Navbar content -->
-          <nav class="navbar bg-body-tertiary">
-            <div class="container-fluid">
-              <form class="d-flex row-reverse" role="search">
-                <input
-                  class="form-control me-2"
-                  type="search"
-                  placeholder="Search"
-                  aria-label="Search"
-                />
-                <button class="btn btn-outline-success" type="submit">
-                  Search
-                </button>
-              </form>
-            </div>
-          </nav>
+        <nav class="navbar navbar-expand-lg" style="background-color: #304635">
+          <a class="navbar-brand" href="../index.html"
+            ><img
+              src="../img/logo_restyle.jpg"
+              class="img-fluif imglogo"
+              alt="Logo Re.style"
+              style="padding-left: 10px"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div
+            class="collapse navbar-collapse justify-content-end p-1"
+            id="navbarSupportedContent"
+          >
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="../index.html">Accueil </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="catalogue.html">Articles</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="Profil-utilisateur.html">Profil </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="favoris.html">Favoris</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="inscription-connexion.html"
+                  >Connexion | Inscription
+                </a>
+              </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+              <input
+                class="form-control mr-sm-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+            </form>
+          </div>
         </nav>
       </header>
       <!-------------------------------------------------------------------------------- FIN NAVBAR ----------------------------------------------------------------------->
@@ -189,9 +227,7 @@
                             Fermer
                           </button>
                           <button type="button" class="btn btn-primary">
-                            <a href="/html/produit-individuelle.html">
-                              Acheter
-                            </a>
+                            <a href="produit-individuelle.html"> Acheter </a>
                           </button>
                         </div>
                         <!---------------Div modal-footer--------------->
@@ -282,9 +318,7 @@
                             Fermer
                           </button>
                           <button type="button" class="btn btn-primary">
-                            <a href="/html/produit-individuelle.html">
-                              Acheter</a
-                            >
+                            <a href="produit-individuelle.html"> Acheter</a>
                           </button>
                         </div>
                         <!---------------Div modal-footer--------------->
@@ -375,9 +409,7 @@
                             Fermer
                           </button>
                           <button type="button" class="btn btn-primary">
-                            <a href="/html/produit-individuelle.html">
-                              Acheter
-                            </a>
+                            <a href="produit-individuelle.html"> Acheter </a>
                           </button>
                         </div>
                         <!---------------Div modal-footer--------------->
@@ -406,7 +438,7 @@
       <!--------------------------------------------------------SECTION FILTRE ------------------------------------------------------------------------->
 
       <section -----------------------Section accessoires------------------>
-        <div class="container">
+        <div class="container" data-aos="zoom-out-up">
           <!--------------------------------------------------------IMAGA PRODUIT 1 ------------------------------------------------------------------------->
           <!--------------------------------------------------------IMAGE PRODUIT 1 ------------------------------------------------------------------------->
           <!--------------------------------------------------------IMAGE PRODUIT 1 ------------------------------------------------------------------------->
@@ -479,9 +511,7 @@
                           Fermer
                         </button>
                         <button type="button" class="btn btn-primary">
-                          <a href="/html/produit-individuelle.html">
-                            Acheter
-                          </a>
+                          <a href="produit-individuelle.html"> Acheter </a>
                         </button>
                       </div>
                       <!---------------Div modal-footer--------------->
@@ -569,9 +599,7 @@
                           Fermer
                         </button>
                         <button type="button" class="btn btn-primary">
-                          <a href="/html/produit-individuelle.html">
-                            Acheter
-                          </a>
+                          <a href="produit-individuelle.html"> Acheter </a>
                         </button>
                       </div>
                       <!---------------Div modal-footer--------------->
@@ -659,9 +687,7 @@
                           Fermer
                         </button>
                         <button type="button" class="btn btn-primary">
-                          <a href="/html/produit-individuelle.html">
-                            Acheter
-                          </a>
+                          <a href="produit-individuelle.html"> Acheter </a>
                         </button>
                       </div>
                       <!---------------Div modal-footer--------------->
@@ -686,7 +712,7 @@
       </section>
 
       <section !------------Section decos------------>
-        <div class="container">
+        <div class="container" data-aos="zoom-out-up">
           <!--------------------------------------------------------IMAGA PRODUIT 1 ------------------------------------------------------------------------->
           <!--------------------------------------------------------IMAGE PRODUIT 1 ------------------------------------------------------------------------->
           <!--------------------------------------------------------IMAGE PRODUIT 1 ------------------------------------------------------------------------->
@@ -760,7 +786,7 @@
                           Fermer
                         </button>
                         <button type="button" class="btn btn-primary">
-                          <a href="/html/produit-individuelle.html"> Acheter</a>
+                          <a href="produit-individuelle.html"> Acheter</a>
                         </button>
                       </div>
                       <!---------------Div modal-footer--------------->
@@ -848,9 +874,7 @@
                           Fermer
                         </button>
                         <button type="button" class="btn btn-primary">
-                          <a href="/html/produit-individuelle.html">
-                            Acheter
-                          </a>
+                          <a href="produit-individuelle.html"> Acheter </a>
                         </button>
                       </div>
                       <!---------------Div modal-footer--------------->
@@ -938,9 +962,7 @@
                           Fermer
                         </button>
                         <button type="button" class="btn btn-primary">
-                          <a href="/html/produit-individuelle.html">
-                            Acheter
-                          </a>
+                          <a href="produit-individuelle.html"> Acheter </a>
                         </button>
                       </div>
                       <!---------------Div modal-footer--------------->
@@ -1075,5 +1097,13 @@
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+
+    <script>
+      AOS.init();
+    </script>
+
   </body>
 </html>

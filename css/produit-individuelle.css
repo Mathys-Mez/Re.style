@@ -5,6 +5,12 @@ body{
 
 }
 
+/*CSS img logo*/
+.imglogo{
+    height: 8vh;
+    border-radius: 10px;
+  }
+
 /*CSS bouton*/
 .btn-primary{
     color: rgb(255, 255, 255);

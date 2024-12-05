@@ -14,6 +14,11 @@ p{
 }
 
 
+/*CSS img logo*/
+.imglogo{
+  height: 8vh;
+  border-radius: 10px;
+}
 
 .Formulaire_de_contact_aide{
 margin-top: 20px;
