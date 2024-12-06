@@ -24,6 +24,12 @@ color: white;
 }
 
 
+/*CSS a navbar*/
+.nav-link{
+  color: white;
+}
+
+
 /*CSS bouton*/
 .btn-primary{
 color: rgb(255, 255, 255);

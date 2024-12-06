@@ -7,8 +7,14 @@ body{
 
 p{
   color: white;
+  
 }
 
+
+/*CSS a navbar*/
+.nav-link{
+  color: white;
+}
 
 /*CSS img*/
 .img-fluid{

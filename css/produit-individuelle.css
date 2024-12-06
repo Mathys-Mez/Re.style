@@ -5,6 +5,12 @@ body{
 
 }
 
+/*CSS a navbar*/
+.nav-link{
+    color: white;
+  }
+  
+
 /*CSS img logo*/
 .imglogo{
     height: 8vh;
